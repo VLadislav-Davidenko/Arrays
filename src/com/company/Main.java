@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 	double[] arr = {1,2,3,4,5,6,7,8,9};
         for (int i = 0; i < arr.length; i++) {  //for (double v : arr)
-            System.out.println(") " + Math.pow(arr[i],3));
+            System.out.println((i + 1) + ") " + Math.pow(arr[i],3));
         }
     String[][] arr1 = new String[2][3];
         arr1[0][0] = "Good";
